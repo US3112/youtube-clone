@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu-icon">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="youtube log">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" name="search-box" id="search-box" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search-button">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voic-search-icon" src="icons/voice-search-icon.svg" alt="voice-search-image">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="upload-icon">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps" src="icons/youtube-apps.svg" alt="youtube-apps-icon">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg" alt="notification-icon-image">
+          <div class="tooltip">Notifications</div>
+          <div class="notification-count">3</div>
+        </div>
+        <img class="my-channel" src="Channel-Profiles/ujjwal.jpeg" alt="mychannel-image">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icon/home.svg" alt="home-icon">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/explore.svg" alt="explore-icon">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/subscriptions.svg" alt="subscriptions-icon">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/originals.svg" alt="originals-icon">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/youtube-music.svg" alt="youtube-music-icon">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icon/library.svg" alt="library-icon">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=45s&ab_channel=MarquesBrownlee">
+              <img class="thumbnail" src="thumbnails/marcus-and-pichai.webp">
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/mkbhd">
+                  <img class="profile-picture" src="Channel-Profiles/mkbhd.jpg" alt="channel-profile-image">
+                </a>
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/mkbhd.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Marques Brownlee</p>
+                    <p class="tooltip-sub-count">15.9M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=45s&ab_channel=MarquesBrownlee">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/mkbhd">
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+              </a>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier">
+              <img class="thumbnail" src="thumbnails/dont-laugh.webp">
+            </a>
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/markiplier">
+                  <img class="profile-picture" src="Channel-Profiles/Markiplier.webp" alt="channel-profile-image">
+                </a>
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/Markiplier.webp" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Markiplier</p>
+                    <p class="tooltip-sub-count">33.2M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier">
+                <p class="video-title">
+                  Try Not To Laugh Challenge #9
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/markiplier">
+                <p class="video-author">
+                  Markiplier
+                </p>
+              </a>
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=J73XRDGPcpE&t=3s&ab_channel=MotoGP">
+              <img class="thumbnail" src="thumbnails/motogp.webp">
+            </a>
+            <div class="video-time">2:51</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/motogp">
+                  <img class="profile-picture" src="Channel-Profiles/motogp-profile.jpg" alt="channel-profile-image">
+                </a>
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/motogp-profile.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">MotoGp</p>
+                    <p class="tooltip-sub-count">5.1M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=J73XRDGPcpE&t=3s&ab_channel=MotoGP">
+                <p class="video-title">
+                  MotoGp&#8482; Lean Angle Experience
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/motogp">
+                <p class="video-author">
+                  MotoGp &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                5.1M views &#183; 8 years ago
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=e3d8qLkoYMk&t=1s&ab_channel=JordanBPeterson">
+              <img class="thumbnail" src="thumbnails/jordan.webp">
+            </a>
+            <div class="video-time">25:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/JordanPetersonVideos">
+                  <img class="profile-picture" src="Channel-Profiles/jordan-profile.jpg" alt="channel-profile-image">
+                </a>
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/jordan-profile.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Jordan B Peterson</p>
+                    <p class="tooltip-sub-count">5.3M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=e3d8qLkoYMk&t=1s&ab_channel=JordanBPeterson">
+                <p class="video-title">
+                  Message to CEOs
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/JordanPetersonVideos">
+                <p class="video-author">
+                  Jordan B Peterson &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                208k views &#183; 13 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=N282bXQYRFc&t=358s&ab_channel=AliAbdaal">
+              <img class="thumbnail" src="thumbnails/ali.webp">
+            </a>
+            <div class="video-time">8:09</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/aliabdaal">
+                  <img class="profile-picture" src="Channel-Profiles/ali-profile.jpg" alt="channel-profile-image">
+                </a>
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/ali-profile.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Ali Abdaal</p>
+                    <p class="tooltip-sub-count">3.14M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=N282bXQYRFc&t=358s&ab_channel=AliAbdaal">
+                <p class="video-title">
+                  How I work for 15 hours and Not Get Bored
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/aliabdaal">
+                <p class="video-author">
+                  Ali Abdaal &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                815K views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=l4OJnPXHwP8&ab_channel=VarunMayya">
+              <img class="thumbnail" src="thumbnails/varun.webp">
+            </a>
+            <div class="video-time">21:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/VarunMayya">
+                  <img class="profile-picture" src="Channel-Profiles/varun.jpg" alt="channel-profile-image">
+                </a>
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/varun.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Varun Mayya</p>
+                    <p class="tooltip-sub-count">104K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=l4OJnPXHwP8&ab_channel=VarunMayya">
+                <p class="video-title">
+                  Yes, AI Will Take Your Creative Job!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/VarunMayya">
+                <p class="video-author">
+                  Varun Mayya &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                31K views &#183; 10 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=LL9moSILips&ab_channel=DappUniversity">
+              <img class="thumbnail" src="thumbnails/dapp-thumbnail.webp">
+            </a>
+            <div class="video-time">17:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/dapp.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/dapp.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Dapp University</p>
+                    <p class="tooltip-sub-count">529K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=LL9moSILips&ab_channel=DappUniversity">
+                <p class="video-title">
+                  Ethereum 2.0 Merge coming soon - INSANE price impact
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/DappUniversity">
+                <p class="video-author">
+                  Dapp University
+                </p>
+              </a>
+              <p class="video-stats">
+                5.7K views &#183; 18 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=O5xeyoRL95U&ab_channel=LexFridman">
+              <img class="thumbnail" src="thumbnails/lex-fridman.webp">
+            </a>
+            <div class="video-time">1:08:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/lex.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/lex.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Lex Fridman</p>
+                    <p class="tooltip-sub-count">1.91M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=O5xeyoRL95U&ab_channel=LexFridman">
+                <p class="video-title">
+                  Deep Learning Basics: Introduction and Overview
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/lexfridman">
+                <p class="video-author">
+                  Lex Fridman &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                1.3M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=XS_Lzo4S8lA&ab_channel=VICE">
+              <img class="thumbnail" src="thumbnails/salvoj.webp">
+            </a>
+            <div class="video-time">21:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/vice.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/vice.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">VICE</p>
+                    <p class="tooltip-sub-count">15.9M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=XS_Lzo4S8lA&ab_channel=VICE">
+                <p class="video-title">
+                  Superstar Communist Slavoj Zizek is The Most Dangerous Philosopher in the West
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/VICE">
+                <p class="video-author">
+                  VICE &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                3.6M views &#183; 8 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=o3M1SELyVSQ&ab_channel=DailyStoic">
+              <img class="thumbnail" src="thumbnails/marcus-aurelius.webp">
+            </a>
+            <div class="video-time">16:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/daily-stoic.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/daily-stoic.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Daily Stoic</p>
+                    <p class="tooltip-sub-count">652K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=o3M1SELyVSQ&ab_channel=DailyStoic">
+                <p class="video-title">
+                  18 Things You Didn't Know About Marcus Aurelius
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/DailyStoic">
+                <p class="video-author">
+                  Daily Stoic &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                44K views &#183; 6 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gnKJOgu2uzE&ab_channel=JordanBPeterson">
+              <img class="thumbnail" src="thumbnails/women-jordan.webp">
+            </a>
+            <div class="video-time">11:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/jordan-profile.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/jordan-profile.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Jordan B Peterson</p>
+                    <p class="tooltip-sub-count">5.3M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=gnKJOgu2uzE&ab_channel=JordanBPeterson">
+                <p class="video-title">
+                  Women are Competitive - Just Not Physically
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/JordanPetersonVideos">
+                <p class="video-author">
+                  Jordan B Peterson &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                176K views &#183; 5 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=37U8vYlp_KE&ab_channel=RistikMusic">
+              <img class="thumbnail" src="thumbnails/ristik.webp">
+            </a>
+            <div class="video-time">4:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/ristik-profile.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/ristik-profile.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">RistikMusic</p>
+                    <p class="tooltip-sub-count">817 subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=37U8vYlp_KE&ab_channel=RistikMusic">
+                <p class="video-title">
+                  Somewhere In Nevada II | RistikMusic - FIRE
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/RistikMusic">
+                <p class="video-author">
+                  RistikMusic &#9834;
+                </p>
+              </a>
+              <p class="video-stats">
+                9K views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=i9GobcnrQtY&ab_channel=LexClips">
+              <img class="thumbnail" src="thumbnails/psychedelics.webp">
+            </a>
+            <div class="video-time">16:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/lex-clips.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/lex-clips.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Lex Clips</p>
+                    <p class="tooltip-sub-count">569K subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=i9GobcnrQtY&ab_channel=LexClips">
+                <p class="video-title">
+                  Matthew Johnson: Psychedelics | Lex Fridman Podcast #145
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/LexClips">
+                <p class="video-author">
+                  Lex Clips &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                113K views  1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=4u5I8GYB79Y&ab_channel=Kurzgesagt%E2%80%93InaNutshell">
+              <img class="thumbnail" src="thumbnails/lyssa.webp">
+            </a>
+            <div class="video-time">11:04</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/kurz.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/kurz.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">Kurzgesagt</p>
+                    <p class="tooltip-sub-count">18.9M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=4u5I8GYB79Y&ab_channel=Kurzgesagt%E2%80%93InaNutshell">
+                <p class="video-title">
+                  The Deadliest Virus on Earth
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/inanutshell">
+                <p class="video-author">
+                  Kurzgesagt &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                30K views &#183; 7 minutes ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=uDDy11tTJ6s&ab_channel=MotoGP">
+              <img class="thumbnail" src="thumbnails/ducati.webp">
+            </a>
+            <div class="video-time">9:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="Channel-Profiles/motogp-profile.jpg" alt="channel-profile-image">
+                <div class="profile-tooltip">
+                  <img class="tooltip-profile" src="Channel-Profiles/motogp-profile.jpg" alt="channel-1-profile-image">
+                  <div>
+                    <p class="tooltip-name">MotoGp</p>
+                    <p class="tooltip-sub-count">5.1M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="channel-info">
+              <a href="https://www.youtube.com/watch?v=uDDy11tTJ6s&ab_channel=MotoGP">
+                <p class="video-title">
+                  Ducati | 2022 #SeasonSoFar
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/motogp">
+                <p class="video-author">
+                  MotoGp &#10003;
+                </p>
+              </a>
+              <p class="video-stats">
+                23K views &#183; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="height:30px;"> </div>
+      </section>
+
+    </main>
+  </body>
+</html>
